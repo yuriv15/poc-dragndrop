@@ -16,6 +16,8 @@ const props = defineProps({
     id: { String, required: true },
 });
 
+// just testing
+
 function dragStart(e: DragEvent) {
     const target = e.target as HTMLElement;
 
